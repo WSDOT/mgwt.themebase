@@ -70,7 +70,7 @@
   </replace-with>
 
   <replace-with class="com.googlecode.mgwt.theme.client.MainResourceCustomAppearance">
-    <when-type-is class="com.googlecode.mgwt.ui.client.resource.MainResourceAppearance" />
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.main.MainResourceAppearance" />
   </replace-with>
 
   <replace-with class="com.googlecode.mgwt.theme.client.PanelCustomAppearance">
