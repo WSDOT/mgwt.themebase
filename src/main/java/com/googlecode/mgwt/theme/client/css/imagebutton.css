@@ -1,3 +1,6 @@
+@def ICON_BACKGROUND_COLOR #FFFFFF;
+@def ICON_BACKGROUND_COLOR_ACTIVE #FFFFFF;
+
 .mgwt-ImageButton.mgwt-ImageButton-small.mgwt-ImageButton-active {
   
 }
@@ -8,7 +11,7 @@
   
 }
 .mgwt-ImageButton-image {
-  
+    background-color: ICON_BACKGROUND_COLOR;
 }
 .mgwt-ImageButton-disabled {
   
@@ -17,7 +20,7 @@
   
 }
 .mgwt-ImageButton-active {
-  
+    background-color: ICON_BACKGROUND_COLOR_ACTIVE;
 }
 .mgwt-ImageButton-text {
   

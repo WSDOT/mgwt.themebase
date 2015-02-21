@@ -2,7 +2,11 @@
   
 }
 .mgwt-TabBar {
-  
+	height: 48px;
+	border-top: none;
+	background: #607D8B;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.26); 
+    z-index: 1;
 }
 .mgwt-TabPanel {
   

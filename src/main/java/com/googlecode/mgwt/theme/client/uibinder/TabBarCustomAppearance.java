@@ -6,7 +6,6 @@ import com.google.gwt.resources.client.ClientBundle;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiTemplate;
 import com.google.gwt.user.client.ui.Widget;
-
 import com.googlecode.mgwt.ui.client.widget.tabbar.TabBarAppearance;
 import com.googlecode.mgwt.ui.client.widget.tabbar.TabBarButtonBase;
 import com.googlecode.mgwt.ui.client.widget.tabbar.TabPanel;
@@ -68,4 +67,5 @@ public class TabBarCustomAppearance implements TabBarAppearance {
   public UiBinder<Widget, TabBar> barBinder() {
     return UI_BINDER_BAR;
   }
+
 }

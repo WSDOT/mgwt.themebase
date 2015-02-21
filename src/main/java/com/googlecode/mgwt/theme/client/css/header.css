@@ -1,3 +1,8 @@
 .mgwt-HeaderPanel {
-  
+    height: 56px;
+    border: none;
+    background: #607D8B;
+    color: #ffffff;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.26); 
+    z-index: 1;   
 }

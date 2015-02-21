@@ -4,7 +4,7 @@
     xmlns:mgwt='urn:import:com.googlecode.mgwt.ui.client.widget'>
     <ui:with field="apperance" type="com.googlecode.mgwt.ui.client.widget.tabbar.TabBarAppearance" />
 	<mgwt:panel.flex.FlexPanel ui:field="container" styleName="{apperance.barCss.tabPanel}">
+        <mgwt:tabbar.TabPanel.TabBar ui:field="tabBar"/>
 	    <mgwt:carousel.Carousel ui:field="tabContainer" />
-	    <mgwt:tabbar.TabPanel.TabBar ui:field="tabBar"/>
 	</mgwt:panel.flex.FlexPanel>
 </ui:UiBinder>
