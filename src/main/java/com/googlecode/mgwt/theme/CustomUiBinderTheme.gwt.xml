@@ -74,7 +74,7 @@
 
   <!-- since there is no DOM we just rebind to css -->
   <replace-with class="com.googlecode.mgwt.theme.client.MainResourceCustomAppearance">
-    <when-type-is class="com.googlecode.mgwt.ui.client.resource.MainResourceAppearance" />
+    <when-type-is class="com.googlecode.mgwt.ui.client.widget.main.MainResourceAppearance" />
   </replace-with>
 
   <replace-with class="com.googlecode.mgwt.theme.client.uibinder.PanelCustomAppearance">
